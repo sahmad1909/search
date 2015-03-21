@@ -20,7 +20,7 @@ public class LoadRank {
 
 	public static String hello;
 
-	public static String path = "C:\\Users\\L404008\\git\\seck\\seck\\resource\\";
+	public static String path = "C:\\Users\\L404008\\git\\seck\\resource\\";
 
 	
 	// this map contains URL and its page data. 

@@ -11,7 +11,10 @@ public class PageData {
 		this.url = url;
 	}
 	public String getPageDate() {
-		pageDate = pageDate.substring(0, 1000);
+		
+		if(pageDate.length() > 1100){
+			pageDate = pageDate.substring(0, 1000);
+		}
 		return pageDate;
 	}
 	public void setPageDate(String pageDate) {
