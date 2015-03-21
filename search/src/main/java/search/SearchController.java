@@ -204,12 +204,12 @@ public class SearchController {
 				searchStringSet.add(st);
 			}
 
-			if (searchStringSet != null && searchStringSet.size() == 10) {
+			if (searchStringSet != null && searchStringSet.size() == 6) {
 				break;
 			}
 		}
 
-		if (searchStringSet != null && searchStringSet.size() < 8) {
+		if (searchStringSet != null && searchStringSet.size() < 6) {
 
 			for (String st : LoadRank.wordsList) {
 
@@ -219,7 +219,7 @@ public class SearchController {
 					searchStringSet.add(st);
 				}
 
-				if (searchStringSet != null && searchStringSet.size() == 10) {
+				if (searchStringSet != null && searchStringSet.size() == 6) {
 					break;
 				}
 			}
